@@ -30,7 +30,7 @@ const CONFIG = {
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '原创', url: '/tag/原创' },
   HEO_HERO_CATEGORY_2: { title: '同人', url: '/tag/同人' },
-  HEO_HERO_CATEGORY_3: { title: '宇宙能量', url: '/tag/宇宙能量' },
+  HEO_HERO_CATEGORY_3: { title: '随笔', url: '/tag/随笔' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
