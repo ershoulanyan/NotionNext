@@ -6,6 +6,9 @@ const CONFIG = {
 
   HEO_SITE_CREATE_TIME: '2026-03-10', // 建站日期，用于计算网站运行的第几天
 
+  HEO_HERO_ENABLE: false,              // 开启/关闭英雄区 (首页顶部大卡)
+  HEO_HOME_CATEGORY_BAR_ENABLE: true, // 开启/关闭首页文章分类栏（英雄区下方）
+
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: 'story of o', url: 'https://bloga4.bluess.store' },
