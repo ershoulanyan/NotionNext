@@ -13,8 +13,10 @@ const SocialButton = () => {
   const CONTACT_TWITTER = siteConfig('CONTACT_TWITTER')
   const CONTACT_TELEGRAM = siteConfig('CONTACT_TELEGRAM')
 
-  const CONTACT_LINKEDIN = siteConfig('CONTACT_LINKEDIN')
+  const CONTACT_LINKTREE = siteConfig('CONTACT_COMPASS')
+  const CONTACT_QQ = siteConfig('CONTACT_QQ')
   const CONTACT_WEIBO = siteConfig('CONTACT_WEIBO')
+  
   const CONTACT_INSTAGRAM = siteConfig('CONTACT_INSTAGRAM')
   const CONTACT_EMAIL = siteConfig('CONTACT_EMAIL')
   const ENABLE_RSS = siteConfig('ENABLE_RSS')
