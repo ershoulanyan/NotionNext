@@ -6,7 +6,7 @@ const CONFIG = {
 
   HEO_SITE_CREATE_TIME: '2026-03-10', // 建站日期，用于计算网站运行的第几天
 
-  HEO_HERO_ENABLE: false,              // 开启/关闭英雄区 (首页顶部大卡)
+  HEO_HERO_ENABLE: true,              // 开启/关闭英雄区 (首页顶部大卡)
   HEO_HOME_CATEGORY_BAR_ENABLE: true, // 开启/关闭首页文章分类栏（英雄区下方）
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
@@ -39,7 +39,7 @@ const CONFIG = {
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
-  //   HERO_RECOMMEND_COVER: 'hhttps://img.bluess.store/img/IMG_4863.JPG', // 英雄区右侧图片
+  HERO_RECOMMEND_COVER: 'hhttps://img.bluess.store/img/IMG_4863.JPG', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
