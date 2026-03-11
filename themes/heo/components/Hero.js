@@ -16,13 +16,7 @@ import CONFIG from '../config'
  * @returns
  */
 const Hero = props => {
-  const HEO_HERO_ENABLE = siteConfig('HEO_HERO_ENABLE', true, CONFIG)
   const HEO_HERO_REVERSE = siteConfig('HEO_HERO_REVERSE', false, CONFIG)
-
-  if (!HEO_HERO_ENABLE) {
-    return null
-  }
-
   return (
     <div
       id='hero-wrapper'
@@ -353,7 +347,7 @@ function TodayCard({ cRef, siteInfo }) {
    * 点击卡片跳转的链接
    * @param {*} e
    */
-  function handleCardClick() {
+  function handleCardClick(e) {
     router.push(link)
   }
 
