@@ -39,7 +39,7 @@ const CONFIG = {
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
-  HERO_RECOMMEND_COVER: 'https://img.bluess.store/img/%E4%BB%8E%E9%9F%B3%E4%B9%90%E6%9C%AC%E8%BA%AB%E5%AF%BB%E6%89%BE%E6%9E%81%E8%87%B4-%E4%B8%89%E8%81%94%E7%94%9F%E6%B4%BB%E7%BD%91.jpg', // 英雄区右侧图片
+  HERO_RECOMMEND_COVER: 'https://img.bluess.store/img/01.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
