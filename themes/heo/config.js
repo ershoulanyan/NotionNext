@@ -26,7 +26,7 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '终身学习',
   HEO_HERO_TITLE_3: '渴望自由和金钱',
   HEO_HERO_TITLE_4: '现充的高等算法',
-  HEO_HERO_TITLE_5: '21世纪拼搏打工人',
+  HEO_HERO_TITLE_5: '21世纪打工人',
   HEO_HERO_TITLE_LINK: 'https://bluess.store',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
@@ -39,7 +39,7 @@ const CONFIG = {
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
-  HEO_HERO_RECOMMEND_COVER: '"https://img.bluess.store/img/001.jpg"',  // 英雄区右侧图片
+  HEO_HERO_RECOMMEND_COVER: 'https://img.bluess.store/img/001.jpg',  // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
